@@ -1,0 +1,52 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#001117;
+    color:#a771d3;
+}
+h1 {
+  color:blueviolet;
+}
+/* Attribute Selector */
+A {
+    color:beige;
+    text-decoration:none;
+}
+a:hover {
+    color:burlywood;
+}
+/* Child Selector */
+ul > li {
+    font-weight: bold;
+}
+/* Sibling Selector */
+h1 + p {
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Hover-Pseudo Classes*/
+ul li:hover {
+    color:cadetblue;
+}
+/* nth-child(n) Pseudo class */
+ul li:nth child(3) {
+    background: color #21262d;
+}
+/* :not(selector) Pseudo class */
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+/* ::before Pseudo-element */
+ul li::before {
+    content: "rocket";
+}
+
+/* ::after Pseudo-element */
+ul li::after {
+    content: "space";
+}
+/* First-letter Pseudo -element */
+p::First-letter {
+    font-size:200%;
+    color:bisque;
+}
