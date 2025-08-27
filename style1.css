@@ -1,0 +1,41 @@
+h1 {
+    color:rgb(0, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+/* Child Selector */
+ol > li {
+    color:darkseagreen;
+}
+a:hover {
+    color: rgb(79, 139, 134);
+    font-family: monospace; 
+}
+b:hover {
+    color:darkkhaki;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+d:hover {
+    color: rgb(139, 69, 69); 
+    font-family: 'Times New Roman', Times, serif;
+c:hover {
+    color: rgb(90, 34, 180);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+/* Sibling Selector */
+h1 + p {
+    color:darkslategrey;
+
+}
+/* ::after Pseudo-element */
+ul li::after {
+    content: Lets learn all about space;
+}
+/* nth-child(n) Pseudo class */
+ul li:nth child(2) {
+    color:pink;
+}
+/* nth-child(n) Pseudo class */
+ul li:nth child(3) {
+    color: purple;
+}
